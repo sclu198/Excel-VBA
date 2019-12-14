@@ -1,0 +1,93 @@
+/* Code Block I */
+Private Sub UserForm_Activate()
+    UserForm1.StartUpPosition = 0
+    UserForm1.Left = Application.Left + 450
+    Label1.Font.Size = 12
+    Label1.TextAlign = fmTextAlignCenter
+    UserForm1.ComboBox1.AddItem "插件機"
+    UserForm1.ComboBox1.AddItem "焊錫機"
+    UserForm1.ComboBox1.AddItem "基板轉接"
+    UserForm1.ComboBox1.AddItem "分板機"
+    UserForm1.ComboBox1.AddItem "ICT測試"
+    UserForm1.ComboBox1.AddItem "點膠機"
+    UserForm1.ComboBox1.AddItem "鎖螺絲機"
+    UserForm1.ComboBox1.AddItem "上下平車"
+    UserForm1.ComboBox1.AddItem "貼標籤機"
+    UserForm1.ComboBox1.AddItem "外觀AOI機"
+    UserForm1.ComboBox1.AddItem "線腳加工"
+    UserForm1.ComboBox1.AddItem "散熱片鎖附機"
+    UserForm1.ComboBox1.Font.Size = 14
+End Sub
+
+
+/* Code Block II */
+Private Sub CommandButton1_Click()
+    With ComboBox1
+        If .Text = "插件機" Then
+            工作表1.Rows("2:8").Hidden = False
+        Else
+            工作表1.Rows("2:8").Hidden = True
+        End If
+        If .Text = "焊錫機" Then
+            工作表1.Rows("9:11").Hidden = False
+        Else
+            工作表1.Rows("9:11").Hidden = True
+        End If
+        If .Text = "基板轉接" Then
+            工作表1.Rows("12:13").Hidden = False
+        Else
+            工作表1.Rows("12:13").Hidden = True
+        End If
+        If .Text = "分板機" Then
+            工作表1.Rows("14:15").Hidden = False
+        Else
+            工作表1.Rows("14:15").Hidden = True
+        End If
+        If .Text = "ICT測試" Then
+            工作表1.Rows("16:20").Hidden = False
+        Else
+            工作表1.Rows("16:20").Hidden = True
+        End If
+        If .Text = "點膠機" Then
+            工作表1.Rows("21:24").Hidden = False
+        Else
+            工作表1.Rows("21:24").Hidden = True
+        End If
+        If .Text = "鎖螺絲機" Then
+            工作表1.Rows("25:26").Hidden = False
+        Else
+            工作表1.Rows("25:26").Hidden = True
+        End If
+        If .Text = "上下平車" Then
+            工作表1.Rows("27").Hidden = False
+        Else
+            工作表1.Rows("27").Hidden = True
+        End If
+        If .Text = "貼標籤機" Then
+            工作表1.Rows("28:29").Hidden = False
+        Else
+            工作表1.Rows("28:29").Hidden = True
+        End If
+        If .Text = "外觀AOI機" Then
+            工作表1.Rows("30").Hidden = False
+        Else
+            工作表1.Rows("30").Hidden = True
+        End If
+        If .Text = "線腳加工" Then
+            工作表1.Rows("31").Hidden = False
+        Else
+            工作表1.Rows("31").Hidden = True
+        End If
+        If .Text = "散熱片鎖附機" Then
+            工作表1.Rows("32").Hidden = False
+        Else
+            工作表1.Rows("32").Hidden = True
+        End If
+    End With
+End Sub
+
+/* Code Block III */
+Private Sub CommandButton2_Click()
+    ComboBox1.Text = ""
+    工作表1.Rows("2:32").Hidden = True
+End Sub
