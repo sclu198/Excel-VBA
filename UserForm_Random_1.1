@@ -1,22 +1,7 @@
 /* Code Phase I */
 
 Private Sub Worksheet_Activate()
-    Rows("2:32").EntireRow.Hidden = True    '開啟後自動隱藏列2~32
-    
-    Dim i, num As Integer           '需要16位數英數字混合的亂數, 數字0~9, 10~35英文大寫, 36~61英文小寫
-    Dim r As String                 
-    
-    Randomize
-    For i = 1 To 16
-        num = Int(Rnd * 62)         '隨機產生0~61之間的數字
-    If num >= 36 Then
-        r = Chr(num + 61)           '轉換為小寫字母, 小寫字母為ASCII CODE 97~122編號的字元, 讓號碼加上61才會成為97~122
-    ElseIf num >= 10 Then
-        r = Chr(num + 55)           '轉換為大寫字母, 大寫字母為ASCII CODE 65~90編號的字元, 讓號碼加上55才會成為65~90
-    Else
-        r = CStr(num)               '0~9數字直接轉換成數字字串
-    End If
-    Next i
+    Rows("2:32").EntireRow.Hidden = False    '開啟後自動隱藏列2~32
 
 End Sub
 
