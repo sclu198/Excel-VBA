@@ -15,7 +15,7 @@ Private Sub Workbook_Open()
         If i = 10 Then letter_number = letter_number & "-"
 
     Next
-    Range("C" & j) = letter_number
+    Range("C" & j) = letter_number      'enters the text follow by letter_number in each cell from C2 to C32
     letter_number = ""
     Next
     
