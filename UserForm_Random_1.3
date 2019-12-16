@@ -8,11 +8,11 @@ Private Sub Workbook_Open()
     letter_number = ""
 
     For j = 2 To 32
-    For i = 1 To 16
+    For i = 1 To 14
         number_length = Int(Len(Characters) * Rnd) + 1
         letter_number = letter_number & Mid(Characters, number_length, 1)
-        If i = 4 Then letter_number = letter_number & "-"
-        If i = 12 Then letter_number = letter_number & "-"
+        If i = 2 Then letter_number = letter_number & "-"
+        If i = 10 Then letter_number = letter_number & "-"
 
     Next
     Range("C" & j) = letter_number
