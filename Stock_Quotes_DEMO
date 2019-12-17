@@ -1,0 +1,35 @@
+Option Explicit
+Private rnAR_Dest As Range
+Private rnAR_Table As Range
+Private stAR_ConfigSheetName As String
+
+
+Private Sub Worksheet_Change(ByVal Target As Range)    'https://chandoo.org/wp/excel-stock-quotes/
+    
+    ActivateRange                                       'Define below
+    If Worksheets(stAR_ConfigSheetName).[ar_enabled] Then
+    If Intersect(Target, rnAR_Dest) Is Nothing Then Exit Sub
+    If Target.Column <> rnAR_Dest.Column And Target.Row <> rnAR_Dest.Row Then
+        PostProcessActiverange                          'Define below
+    Exit Sub
+    End If
+    ActiveRangeResponse                                 'Define below
+    End If
+    
+End Sub
+
+
+Private Sub ActivateRange()
+
+    stAR_ConfigSheetName = "ARConfig_" & Me.Name
+    Set rnAR_Dest = Me.Range(Worksheets(stAR_ConfigSheetName).[ar_range].Value)
+    Set rnAR_Table = rnAR_Dest.Resize(1, 1).Offset(1, 1)
+    Worksheets(stAR_ConfigSheetName).[ar_YFAttributes] = GetCurrentYahooFinancialAttributeTags
+    
+End Sub
+
+Private Sub ActiveRangeResponse()
+    Dim vArr As Variant
+    Dim stCnx As String
+    Const YAHOO_
+End Sub
