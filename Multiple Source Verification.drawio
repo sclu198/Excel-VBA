@@ -1,1 +1,159 @@
-<mxfile host="www.draw.io" modified="2019-12-20T00:50:56.281Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="MJhFflFwNr5TDWumcx0G" version="12.4.3" type="github" pages="1"><diagram id="MovoX0kLoRfZJceI1Aip" name="Page-1">ddHNEoIgEADgp+FuUGlns7p08tCZkU2YQddBGq2nT2c1Y6wLs3y7sPwwkVb92clGX1GBZTxSPRNHxnmc8GEc4UmwjXcEpTOKaLNAbl4wYTTpwyhog0KPaL1pQiywrqHwgUnnsAvL7mjDro0sYQV5Ie1ab0Z5TZrwePELmFLPnTf7A2UqORdPN2m1VNh9kciYSB2ip6jqU7Dj283vQutOf7Kfgzmo/Y8FQ7DsPUyCDxLZGw==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-12-20T05:06:16.520Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="Mlmy632CRayAhIGQzTo1" version="12.4.3" type="github" pages="1">
+  <diagram id="MovoX0kLoRfZJceI1Aip" name="Page-1">
+    <mxGraphModel dx="1614" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="1">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-82" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="20" y="42" width="1051.5" height="748" as="geometry"/>
+        </mxCell>
+        <object label="" id="Fj48VI-iH8jQKtQR33nQ-1">
+          <mxCell style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=#fff2cc;strokeColor=#000000;shadow=0;gradientColor=none;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+            <mxGeometry x="510" y="10" width="100" height="40" as="geometry"/>
+          </mxCell>
+        </object>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-2" value="DFms提供 &lt;br&gt;(無OP Code)" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=#fff2cc;strokeColor=none;rounded=0;shadow=0;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="520" y="15" width="80" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-6" value="&lt;div&gt;&lt;span&gt;1. 備註導入交叉料&lt;/span&gt;&lt;/div&gt;2. 系統上手動修改BOM" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;fillColor=#fff2cc;align=left;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="230" y="158" width="130" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-8" value="" style="shape=actor;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;gradientColor=none;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="467.5" width="30" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-10" value="BU-RD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="455" y="40" width="55" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-11" value="" style="shape=actor;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;gradientColor=none;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="20" y="148" width="30" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-12" value="WJ-生管" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry y="188" width="70" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-13" value="&lt;div&gt;&lt;span&gt;建Routing&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;fillColor=#fff2cc;align=center;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="662" y="158" width="75" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-14" value="" style="shape=actor;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;gradientColor=none;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="600" y="148" width="30" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-15" value="WJ-NPE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="580" y="188" width="70" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-17" value="" style="shape=actor;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;gradientColor=none;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="530" y="293.5" width="30" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-18" value="WJ-AI/SMT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="510" y="333.5" width="70" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-19" value="" style="shape=actor;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;gradientColor=none;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="650" y="538" width="30" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-20" value="WJ-MFG" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="630" y="578" width="70" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-25" value="生產A, B, C板&lt;br&gt;(PWB 上備註A, B, C)" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;fillColor=#fff2cc;align=center;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="605" y="353" width="190" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-34" value="1. 根據帶OP Code的DFms備插件料&lt;br&gt;2. AI/SMT提供的A, B, C板" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;fillColor=#fff2cc;align=left;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="720" y="500" width="200" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-36" value="生產, 組裝, 測試A, B, C板&lt;br&gt;(SFIS備註A, B, C)" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;fillColor=#fff2cc;align=center;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="725" y="598" width="190" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-43" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="638" as="sourcePoint"/>
+            <mxPoint x="820" y="698" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-44" value="評估結果" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;fillColor=#fff2cc;align=center;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="725" y="698" width="190" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-45" value="" style="shape=actor;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;gradientColor=none;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="650" y="688" width="30" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-46" value="WJ-Bench" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="630" y="728" width="70" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-47" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#3333FF;gradientColor=#ffffff;fillColor=none;dashed=1;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="584.5" y="227" width="230" height="191" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-48" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#3333FF;gradientColor=#ffffff;fillColor=none;dashed=1;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="705" y="478" width="230" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-53" value="&lt;span style=&quot;text-align: left ; white-space: normal&quot;&gt;提供DFms (有OP Code)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;fillColor=#fff2cc;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="867" y="158" width="150" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-21" value="1. 根據Routing帶出YP78 BOM&lt;br&gt;2. 手動修改YP78 BOM" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;fillColor=#fff2cc;align=left;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="605" y="256" width="190" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-59" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;shadow=0;strokeColor=#000000;direction=west;strokeWidth=2;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="700" y="118" width="240" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-64" value="" style="endArrow=classicThin;endFill=1;endSize=12;html=1;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Fj48VI-iH8jQKtQR33nQ-82" source="Fj48VI-iH8jQKtQR33nQ-13" target="Fj48VI-iH8jQKtQR33nQ-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="662" y="258" as="sourcePoint"/>
+            <mxPoint x="700" y="238" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-66" value="" style="endArrow=classicThin;endFill=1;endSize=12;html=1;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Fj48VI-iH8jQKtQR33nQ-82" source="Fj48VI-iH8jQKtQR33nQ-21" target="Fj48VI-iH8jQKtQR33nQ-25">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="709.4999999999998" y="205.9999999999999" as="sourcePoint"/>
+            <mxPoint x="710" y="248" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-68" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;rounded=0;" edge="1" parent="Fj48VI-iH8jQKtQR33nQ-82" source="Fj48VI-iH8jQKtQR33nQ-53" target="Fj48VI-iH8jQKtQR33nQ-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="748" as="sourcePoint"/>
+            <mxPoint x="210" y="698" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="890" y="428"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-69" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;rounded=0;" edge="1" parent="Fj48VI-iH8jQKtQR33nQ-82" source="Fj48VI-iH8jQKtQR33nQ-25" target="Fj48VI-iH8jQKtQR33nQ-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="748" as="sourcePoint"/>
+            <mxPoint x="210" y="698" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="760" y="428"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-71" value="" style="endArrow=classicThin;endFill=1;endSize=12;html=1;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Fj48VI-iH8jQKtQR33nQ-82" source="Fj48VI-iH8jQKtQR33nQ-34">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="160" y="698" as="sourcePoint"/>
+            <mxPoint x="820" y="598" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-72" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#3333FF;gradientColor=#ffffff;fillColor=none;dashed=1;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="650" y="141" width="380" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-75" value="" style="line;strokeWidth=2;direction=south;html=1;shadow=0;fillColor=none;gradientColor=#ffffff;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="555" y="50" width="10" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-76" value="" style="line;strokeWidth=2;html=1;shadow=0;fillColor=none;gradientColor=#ffffff;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="290" y="74" width="530" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-77" value="" style="line;strokeWidth=2;direction=south;html=1;shadow=0;fillColor=none;gradientColor=#ffffff;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="286" y="78" width="10" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-78" value="" style="line;strokeWidth=2;direction=south;html=1;shadow=0;fillColor=none;gradientColor=#ffffff;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="815" y="78" width="10" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-79" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#FF0000;gradientColor=#ffffff;fillColor=none;dashed=1;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="216" y="98" width="835.5" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-80" value="工單開立" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;strokeWidth=2;fillColor=#fff2cc;" vertex="1" parent="Fj48VI-iH8jQKtQR33nQ-82">
+          <mxGeometry x="70" y="158" width="90" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fj48VI-iH8jQKtQR33nQ-81" value="" style="endArrow=none;endFill=0;endSize=12;html=1;strokeWidth=1;entryX=-0.001;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#FF0000;" edge="1" parent="Fj48VI-iH8jQKtQR33nQ-82" target="Fj48VI-iH8jQKtQR33nQ-79">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="160" y="178" as="sourcePoint"/>
+            <mxPoint x="286" y="238" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
